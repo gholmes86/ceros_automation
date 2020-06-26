@@ -1,0 +1,328 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2408569867,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the ceros inspire home page is loaded",
+            "match": {
+              "location": "HomePageSteps.theCerosInspireHomePageIsLoaded()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4068112489,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "verifies the number of Industry menu items is 16.",
+        "description": "",
+        "id": "ceros-filter-test;verifies-the-number-of-industry-menu-items-is-16.",
+        "after": [
+          {
+            "result": {
+              "duration": 211405134,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2345249296,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks the \"Industry\" filter in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Industry",
+                  "offset": 21
+                }
+              ],
+              "location": "HomePageSteps.theUserClicksTheFilterInTheCerosHomepage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109471517,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should see 16 menu items displaying within the Industry dropdown in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 20
+                }
+              ],
+              "location": "HomePageSteps.theUserShouldSeeMenuItemsDisplayingWithinTheIndustryDropdownInTheCerosHomepage(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2212290506,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the ceros inspire home page is loaded",
+            "match": {
+              "location": "HomePageSteps.theCerosInspireHomePageIsLoaded()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1953756526,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verifies filter addition and image headers",
+        "description": "",
+        "id": "ceros-filter-test;verifies-filter-addition-and-image-headers",
+        "after": [
+          {
+            "result": {
+              "duration": 252331328,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3444848239,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user clicks the \"Industry\" filter in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Industry",
+                  "offset": 21
+                }
+              ],
+              "location": "HomePageSteps.theUserClicksTheFilterInTheCerosHomepage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253745363,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user selects \"finance\" from the Industry dropdown in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "finance",
+                  "offset": 18
+                }
+              ],
+              "location": "HomePageSteps.theUserSelectsFromTheIndustryDropdownInTheCerosHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582102207,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user clicks the \"Type\" filter in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Type",
+                  "offset": 21
+                }
+              ],
+              "location": "HomePageSteps.theUserClicksTheFilterInTheCerosHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 299787770,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user selects \"content-hub\" from the Type dropdown in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "content-hub",
+                  "offset": 18
+                }
+              ],
+              "location": "HomePageSteps.theUserSelectsFromTheTypeDropdownInTheCerosHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224782110,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user clicks the \"Feature\" filter in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Feature",
+                  "offset": 21
+                }
+              ],
+              "location": "HomePageSteps.theUserClicksTheFilterInTheCerosHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258614363,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user selects \"video\" from the Feature dropdown in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "video",
+                  "offset": 18
+                }
+              ],
+              "location": "HomePageSteps.theUserSelectsFromTheFeatureDropdownInTheCerosHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184009794,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should see the grid image",
+            "match": {
+              "location": "HomePageSteps.theUserShouldSeeTheGridImage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64589694,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user should see the \"Citywire\" header in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Citywire",
+                  "offset": 25
+                }
+              ],
+              "location": "HomePageSteps.theUserShouldSeeTheHeaderInTheCerosHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64395153,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user should see the \"CEO Tapes\" subheader in the ceros homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CEO Tapes",
+                  "offset": 25
+                }
+              ],
+              "location": "HomePageSteps.theUserShouldSeeTheSubheaderInTheCerosHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85370410,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user should see breadcrumbs displayed in the ceros homepage",
+            "match": {
+              "location": "HomePageSteps.theUserShouldSeeBreadcrumbsDisplayedInTheCerosHomepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Ceros filter test",
+    "description": "",
+    "id": "ceros-filter-test",
+    "keyword": "Feature",
+    "uri": "features/web/ceroshomepagetest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
